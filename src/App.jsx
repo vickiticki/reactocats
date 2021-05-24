@@ -55,7 +55,7 @@ export class App extends Component {
           <section>
             <Octocat
               catName="Mona-the-Rivertocat"
-              catNo="#152"
+              catNo="#152:"
               catLink="https://octodex.github.com//mona-the-rivetertocat/"
               catImageSrc="https://octodex.github.com//images/mona-the-rivetertocat.png"
               creator="johncreek"
@@ -64,99 +64,33 @@ export class App extends Component {
             />
             <Octocat
               catName="Terracottocat"
-              catNo="149"
+              catNo="149:"
               catLink="https://octodex.github.com//terracottocat/"
               catImageSrc="https://octodex.github.com//images/Terracottocat_Single.png"
               creator="chubbmo"
               creatorLink="https://github.com/chubbmo"
               creatorPic="https://github.com/chubbmo.png"
             />
-            <article className="test no3">
-              <a href="https://octodex.github.com//terracottocat/">
-                <img
-                  src="https://octodex.github.com//images/Terracottocat_Single.png"
-                  alt="Terracottocat"
-                  width="400"
-                  height="400"
-                />
-              </a>
-              <ul>
-                <li>
-                  #149:
-                  <a href="https://octodex.github.com//terracottocat/">
-                    <strong>Terracottocat</strong>
-                  </a>
-                </li>
-                <li>
-                  <a href="https://github.com/chubbmo">
-                    <img
-                      src="https://github.com/chubbmo.png"
-                      width="24px"
-                      height="24px"
-                      alt="chubbmo"
-                    />
-                  </a>
-                </li>
-              </ul>
-            </article>
 
-            <article>
-              <a href="https://octodex.github.com//octogatos/">
-                <img
-                  src="https://octodex.github.com//images/Octogatos.png"
-                  width="400"
-                  height="400"
-                  alt="Octogatos"
-                />
-              </a>
-              <ul>
-                <li>
-                  #148:
-                  <a href="https://octodex.github.com//octogatos/">
-                    <strong>Octogatos</strong>
-                  </a>
-                </li>
-                <li>
-                  <a href="https://github.com/cameronfoxly">
-                    <img
-                      src="https://github.com/cameronfoxly.png"
-                      width="24px"
-                      height="24px"
-                      alt="cameronfoxly"
-                    />
-                  </a>
-                </li>
-              </ul>
-            </article>
+            <Octocat
+              catName="Octogatos"
+              catNo="#148:"
+              catLink="https://octodex.github.com//octogatos/"
+              catImageSrc="https://octodex.github.com//images/Octogatos.png"
+              creator="cameronfoxly"
+              creatorLink="https://github.com/cameronfoxly"
+              creatorPic="https://github.com/cameronfoxly.png"
+            />
 
-            <article>
-              <a href="https://octodex.github.com//brennatocat/">
-                <img
-                  src="https://octodex.github.com//images/Brennatocat.png"
-                  width="400"
-                  height="400"
-                  alt="Brennatocat"
-                />
-              </a>
-              <ul>
-                <li>
-                  #144
-                  <a href="https://octodex.github.com//brennatocat/">
-                    <strong>Brennatocat</strong>
-                  </a>
-                </li>
-                <li>
-                  <a href="https://github.com/johncreek">
-                    <img
-                      src="https://github.com/johncreek.png"
-                      width="24px"
-                      height="24px"
-                      alt="johncreek"
-                    />
-                  </a>
-                </li>
-              </ul>
-            </article>
+            <Octocat
+              catName="Brennatocat"
+              catNo="#144:"
+              catLink="https://octodex.github.com//brennatocat"
+              catImageSrc="https://octodex.github.com//images/Brennatocat.png"
+              creator="johncreek"
+              creatorLink="https://github.com/johncreek"
+              creatorPic="https://github.com/johncreek.png"
+            />
 
             <article>
               <a href="https://octodex.github.com//sentrytocat/">

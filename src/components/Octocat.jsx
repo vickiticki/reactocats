@@ -15,7 +15,7 @@ export class Octocat extends React.Component {
         </a>
         <ul>
           <li>
-            <li>{this.props.catNo}</li>
+            {this.props.catNo}
             <a href={this.props.catLink}>
               <strong>{this.props.catName}</strong>
             </a>

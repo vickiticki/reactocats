@@ -91,35 +91,15 @@ export class App extends Component {
               creatorLink="https://github.com/johncreek"
               creatorPic="https://github.com/johncreek.png"
             />
-
-            <article>
-              <a href="https://octodex.github.com//sentrytocat/">
-                <img
-                  src="https://octodex.github.com//images/Sentrytocat_octodex.jpg"
-                  width="400"
-                  height="400"
-                  alt="Sentrytocat"
-                />
-              </a>
-              <ul>
-                <li>
-                  #142:
-                  <a href="https://octodex.github.com//sentrytocat/">
-                    <strong>Sentrytocat</strong>
-                  </a>
-                </li>
-                <li>
-                  <a href="https://github.com/cameronmcefee">
-                    <img
-                      src="https://github.com/cameronmcefee.png"
-                      width="24px"
-                      height="24px"
-                      alt="cameronfoxly"
-                    />
-                  </a>
-                </li>
-              </ul>
-            </article>
+            <Octocat
+              catName="Sentrytocat"
+              catNo="#142:"
+              catLink="https://octodex.github.com//sentrytocat"
+              catImageSrc="https://octodex.github.com//images/Sentrytocat_octodex.jpg"
+              creator="cameronfoxly"
+              creatorLink="https://github.com/cameronmcefee"
+              creatorPic="https://github.com/cameronmcefee.png"
+            />
 
             <article>
               <a href="https://octodex.github.com//umbrellatocat/">

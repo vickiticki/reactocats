@@ -100,187 +100,62 @@ export class App extends Component {
               creatorLink="https://github.com/cameronmcefee"
               creatorPic="https://github.com/cameronmcefee.png"
             />
+            <Octocat
+              catName="Umbrellatocat"
+              catNo="#141:"
+              catLink="https://octodex.github.com//umbrellatocat/"
+              catImageSrc="https://octodex.github.com//images/puddle_jumper_octodex.jpg"
+              creator="rubyjazzy"
+              creatorLink="https://github.com/rubyjazzy"
+              creatorPic="https://github.com/rubyjazzy.png"
+            />
+            <Octocat
+              catName="Boxertocat"
+              catNo="#140:"
+              catLink="https://octodex.github.com//boxertocat/"
+              catImageSrc="http://octodex.github.com//images/boxertocat_octodex.jpg"
+              creator="rubyjazzy"
+              creatorLink="https://github.com/rubyjazzy"
+              creatorPic="https://github.com/rubyjazzy.png"
+            />
+            <Octocat
+              catName="Surftocat"
+              catNo="#139:"
+              catLink="https://octodex.github.com//surftocat/"
+              catImageSrc="https://octodex.github.com//images/surftocat.png"
+              creator="jeejkang"
+              creatorLink="https://github.com/jeejkang"
+              creatorPic="http://github.com/jeejkang.png"
+            />
+            <Octocat
+              catName="Scubatocat"
+              catNo="#137:"
+              catLink="https://octodex.github.com//scubatocat/"
+              catImageSrc="https://octodex.github.com//images/scubatocat.png"
+              creator="cameronfoxly"
+              creatorLink="https://github.com/cameronfoxly"
+              creatorPic="https://github.com/cameronfoxly.png"
+            />
 
-            <article>
-              <a href="https://octodex.github.com//umbrellatocat/">
-                <img
-                  src="https://octodex.github.com//images/puddle_jumper_octodex.jpg"
-                  width="400px"
-                  heigh="400px"
-                  alt="Umbrellatocat"
-                />
-              </a>
-              <ul>
-                <li>
-                  #141
-                  <a href="https://octodex.github.com//umbrellatocat/">
-                    <strong>Umbrellatocat</strong>
-                  </a>
-                </li>
-                <li>
-                  <a href="https://github.com/rubyjazzy">
-                    <img
-                      src="https://github.com/rubyjazzy.png"
-                      width="24px"
-                      height="24px"
-                      alt="rubyjazzy"
-                    />
-                  </a>
-                </li>
-              </ul>
-            </article>
+            <Octocat
+              catName="Justicetocat"
+              catNo="#133:"
+              catLink="https://octodex.github.com//justicetocat"
+              catImageSrc="https://octodex.github.com//images/justicetocat.jpg"
+              creator="heyhayhay"
+              creatorLink="https://github.com/heyhayhay"
+              creatorPic="https://github.com/heyhayhay.png"
+            />
 
-            <article>
-              <a href="https://octodex.github.com//boxertocat/">
-                <img
-                  src="https://octodex.github.com//images/boxertocat_octodex.jpg"
-                  width="400"
-                  height="400"
-                  alt="Boxertocat"
-                />
-              </a>
-              <ul>
-                <li>
-                  #140:
-                  <a href="https://octodex.github.com//boxertocat/">
-                    <strong>Boxertocat</strong>
-                  </a>
-                </li>
-                <li>
-                  <a href="https://github.com/rubyjazzy">
-                    <img
-                      src="https://github.com/rubyjazzy.png"
-                      width="24px"
-                      height="24px"
-                      alt="rubyjazzy"
-                    />
-                  </a>
-                </li>
-              </ul>
-            </article>
-
-            <article>
-              <a href="https://octodex.github.com//suftocat/">
-                <img
-                  src="https://octodex.github.com//images/surftocat.png"
-                  width="400"
-                  height="400"
-                  alt="Surftocat"
-                />
-              </a>
-              <ul>
-                <li>
-                  #139:
-                  <a href="https://octodex.github.com//suftocat/">
-                    <strong>Surftocat</strong>
-                  </a>
-                </li>
-                <li>
-                  <a href="https://github.com/jeejkang">
-                    <img
-                      src="https://github.com/jeejkang.png"
-                      width="24px"
-                      height="24px"
-                      alt="jeejkang"
-                    />
-                  </a>
-                </li>
-              </ul>
-            </article>
-
-            <article>
-              <a href="https://octodex.github.com//scubatocat/">
-                <img
-                  src="https://octodex.github.com//images/scubatocat.png"
-                  width="400"
-                  height="400"
-                  alt="Scubatocat"
-                />
-              </a>
-              <ul>
-                <li>
-                  #137:
-                  <a href="https://octodex.github.com//scubatocat/">
-                    <strong>Scubatocat</strong>
-                  </a>
-                </li>
-                <li>
-                  <a href="https://github.com/cameronfoxly">
-                    <img
-                      src="https://github.com/cameronfoxly.png"
-                      width="24px"
-                      height="24px"
-                      alt="cameronfoxly"
-                    />
-                  </a>
-                </li>
-              </ul>
-            </article>
-            <article>
-              <a href="https://octodex.github.com//justicetocat/">
-                <img
-                  src="https://octodex.github.com//images/justicetocat.jpg"
-                  width="400"
-                  height="400"
-                  alt="Justicetocat"
-                />
-              </a>
-              <ul>
-                <li>
-                  #133
-                  <a href="https://octodex.github.com//justicetocat/">
-                    <strong>Justicetocat</strong>
-                  </a>
-                </li>
-                <li>
-                  <a href="https://github.com/heyhayhay">
-                    <img
-                      src="https://github.com/heyhayhay.png"
-                      width="24px"
-                      height="24px"
-                      alt="heyhayhay"
-                    />
-                  </a>
-                </li>
-              </ul>
-            </article>
-
-            <article>
-              <a href="https://octodex.github.com//dinotocat/">
-                <img
-                  src="https://octodex.github.com//images/dinotocat.png"
-                  width="400"
-                  height="400"
-                  alt="Dinotocat"
-                />
-              </a>
-              <ul>
-                <li>
-                  #129:
-                  <a href="https://octodex.github.com//dinotocat/">
-                    <strong>Dinotocat</strong>
-                  </a>
-                </li>
-                <li>
-                  <a href="https://github.com/kimestoesta">
-                    <img
-                      src="https://github.com/kimestoesta.png"
-                      width="24px"
-                      height="24px"
-                      alt="kimestoesta"
-                    />
-                  </a>
-                  <a href="https://github.com/heyhayhay">
-                    <img
-                      src="https://github.com/heyhayhay.png"
-                      width="24px"
-                      height="24px"
-                      alt="heyhayhay"
-                    />
-                  </a>
-                </li>
-              </ul>
-            </article>
+            <Octocat
+              catName="Dinotocat"
+              catNo="#129:"
+              catLink="https://octodex.github.com//dinotocat/"
+              catImageSrc="https://octodex.github.com//images/dinotocat.png"
+              creator="kimesotesta"
+              creatorLink="https://github.com/kimestoesta"
+              creatorPic="https://github.com/kimestoesta.png"
+            />
 
             <article>
               <a href="https://octodex.github.com//spidertocat/">

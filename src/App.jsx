@@ -156,35 +156,15 @@ export class App extends Component {
               creatorLink="https://github.com/kimestoesta"
               creatorPic="https://github.com/kimestoesta.png"
             />
-
-            <article>
-              <a href="https://octodex.github.com//spidertocat/">
-                <img
-                  src="https://octodex.github.com//images/spidertocat.png"
-                  width="400"
-                  height="400"
-                  alt="Spidertocat"
-                />
-              </a>
-              <ul>
-                <li>
-                  #87:
-                  <a href="https://octodex.github.com//spidertocat/">
-                    <strong>Spidertocat</strong>
-                  </a>
-                </li>
-                <li>
-                  <a href="https://github.com/jeejkang">
-                    <img
-                      src="https://github.com/jeejkang.png"
-                      width="24px"
-                      height="24px"
-                      alt="jeejkang"
-                    />
-                  </a>
-                </li>
-              </ul>
-            </article>
+            <Octocat
+              catName="Spidertocat"
+              catNo="#87:"
+              catLink="https://octodex.github.com//spidertocat"
+              catImageSrc="https://octodex.github.com//images/spidertocat.png"
+              creator="jeejkang"
+              creatorLink="https://github.com/jeejkang"
+              creatorPic="https://github.com/jeejkang.png"
+            />
           </section>
         </main>
         <footer>
